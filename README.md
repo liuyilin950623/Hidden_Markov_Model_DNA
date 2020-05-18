@@ -1,1 +1,5 @@
-# Hidden_Markov_Model_DNA
+### Hidden_Markov_Model_DNA
+
+Identifying chromosomal aberrations in genomic DNA data is an important task in order to understand the pathogenesis of many diseases. Array comparative genomic hybridization (CGH) is a method that allows the detection of such changes. Array CGH data consist of log-ratios of normalized intensities from disease versus control samples, indexed by the physical location of the probe on the genome. Our objective is to segment the data into contiguous regions of high and low log-ratios. We will analyse the array CGH profile of chromosome 13 in a Glioblastoma multiforme (GBM) data sample. 
+
+To identify contiguous regions of high and low log-ratios, we first consider the given two-state homogeneous hidden Markov model (details in the notebook). We will use forward filtering, forward-backward smoothing, and maximum a posterior estimation. Some food for thoughts are also noted down at the bottom of the notebook.
